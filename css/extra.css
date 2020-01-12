@@ -16,13 +16,13 @@ body {
 }
 
 .navbar-brand{
-color: #AD343E;
-font-weight: 700;
+color: #AD343E !important;
+font-weight: 700 !important;
 }
 
 .navbar-brand:hover{
-color: #AD343E;
-font-weight: 700;
+color: #AD343E !important;
+font-weight: 700 !important;
 }
 
 .nav-link{
@@ -169,14 +169,14 @@ a.bron{
 
 .card-header {
   background-color: #AD343E;
-  color: #EBE9E9;
+  color: #FFFFFB;
   text-align: center;
   font-weight: 700;
   margin-top: -10px;
 }
 
 .card-body {
-  background-color: #EBE9E9;
+  background-color: #FFFFFB;
   color: #1E1E24;
 }
 
