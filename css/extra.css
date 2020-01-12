@@ -1,41 +1,22 @@
-/* COLOURS
-light = #FFFFFB 
-light gray = #EBE9E9
-black = #1E1E24
-primary = #AD343E
-secondary = #F2AF29 */
-
-/* ALGEMEEN */
-/* bepaalt hoe de header er uit ziet */
 body {
   overflow-x: hidden;
 }
 
-.navbar{
+.navbar, .bg-black{
   background-color: #1e1e24;
 }
 
-.navbar-brand{
+.active, .navbar-brand, .navbar-brand:hover{
 color: #AD343E !important;
 font-weight: 700 !important;
 }
 
-.navbar-brand:hover{
-color: #AD343E !important;
-font-weight: 700 !important;
-}
-
-.nav-link{
+.text-light-gray, .nav-link{
   color: #EBE9E9 !important;
 }
 
-.nav-link:hover{
+.text-red, .nav-link:hover, h2{
   color: #AD343E !important;
-}
-
-.active{
-  color: #AD343E !important;
-  font-weight: 700;
 }
 
 .bg-light {
@@ -50,20 +31,15 @@ font-weight: 700 !important;
   background-color: #AD343E;
 }
 
-.bg-black{
-  background-color: #1E1E24;
-}
-
 .bg-overlay{
   background-color: rgba(172, 52, 62, 75%);
 }
 
 h2 {
-  color: #AD343E;
   padding-bottom: .5rem;
 }
 
-.text-dark {
+.text-dark, .card-text{
   color: #1E1E24;
 }
 
@@ -71,15 +47,7 @@ h2 {
   color: #FFFFFB;
 }
 
-.text-light-gray {
-  color: #EBE9E9;
-}
-
-.text-red {
-  color: #AD343E;
-}
-
-.text-yellow {
+.text-yellow, .how-number {
   color: #F2AF29;
 }
 
@@ -88,65 +56,50 @@ a.bron{
 }
 
 .padding-basic {
-  /* custom padding voor de full width (fluid) containers */
   padding-left: 10vw;
   padding-right: 10vw;
   padding-top: 7.5vh;
   padding-bottom: 7.5vh;
 }
 
-.padding-0{
+.padding-0, .voorbeeld-img-col{
   padding: 0;
 }
 
 .padding-col-left {
-  /* minder padding rechts */
   padding-right: 5vw;
 }
 
 .padding-col-right {
-  /* minder padding links*/
   padding-left: 5vw;
 }
 
 .padding-card-col {
-  /*custom padding voor de columns waar kaarten in staan */
   padding-left: 1.25vw;
   padding-right: 1.25vw;
 }
 
 .padding-card-col-left {
-  /*custom padding voor de columns waar kaarten in staan - linker kolom*/
   padding-left: 0;
 }
 
 .padding-card-col-rigt {
-  /*custom padding voor de columns waar kaarten in staan - rechter kolom*/
   padding-right: 0;
 }
 
 .masthead {
   height: 56vh;
-  /* hoogte is 25% van de hoogte van het scherm */
   min-height: 400px;
-  /* de minimale hoogte voor als 25vh kleiner is */
   max-height: 700px;
-  /* de maximale hoogte voor als 25vh groter is, belangrijk voor bredere schermen */
-  background-size: cover;
-  /* afbeelding behelst heel de header */
-  background-position: center;
-  /* afbeelding in het midden */
-  background-repeat: no-repeat;
-  /* afbeelding wordt niet herhaald */
 }
 
-.voorbeeld-img-col {
-  padding: 0;
-  /* haalt de standaard padding van een container weg zodat er geen randen naast de afbeelding zijn */
+.masthead, .kaart{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .img-full-width {
-  /* afbeelding zo groot als de column of container waar het in geplaatst is, afbeelding wordt vergroot tot de randen de randen van de container raken */
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -156,21 +109,13 @@ a.bron{
   max-height: 75%;
 }
 
-.img-full-width-voorbeeld-kernwaarden{
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
-
-.how-number {
-  color: #F2AF29;
+.how-number, .header-title, .header-home, .card-header{
   text-align: center;
 }
 
 .card-header {
   background-color: #AD343E;
   color: #FFFFFB;
-  text-align: center;
   font-weight: 700;
   margin-top: -10px;
 }
@@ -180,84 +125,32 @@ a.bron{
   color: #1E1E24;
 }
 
-.card-text {
-  color: #1E1E24;
-}
-
 .card {
   text-align: center !important;
 }
 
-/* HOME */
-/* bepaalt de foto voor de header van de pagina home */
 .home {
   background-image: url('https://images.unsplash.com/photo-1511746315387-c4a76990fdce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
-  background-color: rgb(160, 160, 160);
-  background-blend-mode: overlay;
-}
-
-.header-title {
-  text-align: center;
-  font-weight: 700;
 }
 
 .header-home {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 1.4em;
-  text-align: center;
 }
 
 .kaart {
   height: 250px;
-  background-size: cover;
-  /* afbeelding behelst heel de header */
-  background-position: center;
-  /* afbeelding in het midden */
-  background-repeat: no-repeat;
-  /* afbeelding wordt niet herhaald */
 }
 
-.goldencircle-kaart {
+.golden-circle, .goldencircle-kaart{
   background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
 }
 
-.merkwijzer-kaart {
+.merkwijzer, .merkwijzer-kaart {
   background-image: url('http://yoeri.xyz/iuxd/merkwijzer-starbucks.png')
 }
 
-.kernwaarden-kaart {
+.kernwaarden, .kernwaarden-kaart {
   background-image: url('http://yoeri.xyz/iuxd/kernwaarden.png')
-}
-
-/* GOLDEN CIRCLE */
-/* header image */
-.golden-circle {
-  background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
-}
-
-.golden-circle-hoe {
-  height: 10vw;
-  min-height: 150px;
-  max-height: 500px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-/* MERKWIJZER */
-/* header image */
-.merkwijzer {
-  background-image: url('http://yoeri.xyz/iuxd/merkwijzer-starbucks.png');
-}
-
-/* KERNWAARDEN */
-/* header image */
-.kernwaarden {
-  background-image: url('http://yoeri.xyz/iuxd/kernwaarden.png');
-}
-
-.kernwaarden-hoe-1{
-  background-image: url(https://images.squarespace-cdn.com/content/v1/57b27c5be58c62b96df66901/1473555808819-X8EH6N99I25036VN4BBZ/ke17ZwdGBToddI8pDm48kDCUnlYkCH02BigXDeW-wyxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwGlA84QJa-di9jErMQVjL5b7VgSFK8Nmqic8fCjnFGofNUhg91xRYK42KQQIBO4eE/image-asset.jpeg?format=500w);
-  
 }
