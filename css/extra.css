@@ -95,6 +95,10 @@ a.bron{
   padding-bottom: 7.5vh;
 }
 
+.padding-0{
+  padding: 0;
+}
+
 .padding-col-left {
   /* minder padding rechts */
   padding-right: 5vw;
@@ -146,6 +150,10 @@ a.bron{
   width: 100%;
   height: auto;
   object-fit: contain;
+}
+
+.golden-circle-brain{
+  max-height: 75%;
 }
 
 .img-full-width-voorbeeld-kernwaarden{
@@ -235,18 +243,6 @@ a.bron{
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.golden-circle-hoe-1 {
-  background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
-}
-
-.golden-circle-hoe-2 {
-  background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
-}
-
-.golden-circle-hoe-3 {
-  background-image: url('https://cohort21.com/markverbeek/files/2019/04/Start-with-Why-Golden-Circle-Diagram.png');
 }
 
 /* MERKWIJZER */
